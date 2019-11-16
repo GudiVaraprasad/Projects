@@ -1,8 +1,4 @@
-// Gudi Varaprasad
-// 19BCE7048
-// Slot : G2+TG2
-// Guidance : Sibi Chakravarthy Sir
-// Assignment of Semester 1, 2019
+
 
 // Taking orders from Customers in a Hotel and Calculating the Bill to be paid.
 
