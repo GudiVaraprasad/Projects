@@ -18,7 +18,7 @@ class Main
         System.out.println("Let's start the game - ROCK PAPER SCISSORS ");
         System.out.println("---------------------------------------------");
         System.out.println();
-        System.out.println("Player 1 needs to choose this: ");
+        System.out.println(player1 + " needs to choose this: ");
         System.out.println("Choose your input (Enter the number) out of these three: \n1.Rock \n2.Paper \n3.Scissors ");
         System.out.print("Your input: ");
         int p1=in.nextInt();
@@ -28,7 +28,7 @@ class Main
             p1=in.nextInt();
         }
         System.out.println();
-        System.out.println("Player 2 needs to choose this: ");
+        System.out.println(player2 + " needs to choose this: ");
         System.out.println("Choose your input (Enter the number) out of these three: \n1.Rock \n2.Paper \n3.Scissors ");
         System.out.print("Your input: ");
         int p2=in.nextInt();
