@@ -4,4 +4,4 @@ This is a JAVASCRIPT based web tool which helps you to choose the best programmi
 
 # Link below :
 
-# https://gudivaraprasad.github.io/Projects/Programming_Language_Recommender/
+# https://gudivaraprasad.github.io/Projects/Programming_Language_Recommender/index.html
