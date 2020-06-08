@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Programming Language Recommender</title>
+	<style type="text/css">
+
+		body{
+			background-color: #F5FAB4;
+			padding: 15px;
+		}
+	</style>
+<script type = "text/javascript">
+
+function PLR() {
+
+	var choice = document.getElementById("choice").value;
+
+if(choice === "Select"){
+	document.getElementById("result").innerHTML = " Please Choose an option above" ;
+}
+
+if(choice === "Nothing_Specific"){
+	document.getElementById("result").innerHTML = " Just start with PYTHON." ;
+}
+if(choice === "Just_for_Fun"){
+
+document.getElementById("result").innerHTML = " Start learning LOLCODE and OMGROFL. ";
+
+}
+if(choice === "Web_Development"){
+
+document.getElementById("result").innerHTML = " Begin with HTML CSS JAVASCRIPT and develop some web apps.";
+
+}
+if(choice === "Job"){
+
+document.getElementById("result").innerHTML = " Start with C programming Language and continue with JAVA or PYTHON. ";
+
+}
+if(choice === "Software_Development"){
+
+document.getElementById("result").innerHTML = " Start with JAVA and dive deep into JAVA. ";
+
+}
+if(choice === "Beginners"){
+
+document.getElementById("result").innerHTML = " Start with PYTHON. ";
+}
+
+if(choice === "Hacking"){
+
+document.getElementById("result").innerHTML = " Start with PYTHON and C programming and some control over OS-Linux. ";
+}
+
+if(choice === "App_Development"){
+
+document.getElementById("result").innerHTML = " Start learning JAVA from basics for Android Devlopment. ";
+}
+
+if(choice === "Cyber_Security"){
+
+document.getElementById("result").innerHTML = " For a career in Cyber Security, You need to learn PYTHON, C++, JAVASCRIPT, SQL. ";
+}
+
+if(choice === "Game_Development"){
+
+document.getElementById("result").innerHTML = " Start with C++ or JAVA and you may even use PYTHON libraries. ";
+}
+
+if(choice === "Data_Analytics"){
+
+document.getElementById("result").innerHTML = " Start with PYTHON and R programming. ";
+}
+
+if(choice === "IOT"){
+
+document.getElementById("result").innerHTML = " Start with C programming or PYTHON to make an IOT project. ";
+}
+
+if(choice === "Artificial_Intelligence"){
+
+document.getElementById("result").innerHTML = " Start with PYTHON which is the most popular choice followed by C++, JAVA, JAVASCRIPT, and C#. ";
+}
+
+if(choice === "Animations"){
+
+document.getElementById("result").innerHTML = " Start with R programming and try MATLAB and PYTHON for Data Visualizations. ";
+}
+
+if(choice === "Logics"){
+
+document.getElementById("result").innerHTML = " Start with C++ ";
+}
+
+if(choice === "Kids"){
+
+document.getElementById("result").innerHTML = " Start with Ruby and Scratch or JAVASCRIPT. ";
+}
+
+if(choice === "Future"){
+
+document.getElementById("result").innerHTML = " Start with PYTHON. It undoubtedly tops the list. ";
+}
+
+if(choice === "Deep_Learning"){
+
+document.getElementById("result").innerHTML = " Start with only PYTHON and just dive deep into it's applications and libraries. ";
+}
+
+if(choice === "Earn_Money"){
+
+document.getElementById("result").innerHTML = " Start learning GO or Ruby on Rails. ";
+}
+
+if(choice === "Random"){
+
+document.getElementById("result").innerHTML = " Start with JAVASCRIPT. ";
+}
+
+}
+</script>
+
+</head>
+
+<body>
+<h1 style="text-align: center;";><u>Programming Language Recommender</u></h1><br>
+<h3>About Tool :</h3>
+<p style="font-size:20px";>This tool will help you to choose the best programming language that suits you, If you are struck in your life or starting as a beginner, this web tool is perfect for you. Programming has become a vital element in every CSE Student's Life. When you want to start your career as a Web Developer or Software Developer or an Ethical Hacker, but you don't know how to choose, We are here for you. Just simply follow the instructions.</p>
+
+<p>&nbsp;</p>
+<p><img src="https://fossbytes.com/wp-content/uploads/2016/06/most-important-programming-languages.jpg" width="480px" height="320px" alt="important">&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://bbvaopen4u.com/sites/default/files/img/new/recursosprogramadores.png" width="480px" height="320px" alt="important">&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://www.purelogics.net/blog/wp-content/uploads/2017/06/AAEAAQAAAAAAAAieAAAAJDE0MGRjMmY4LTY5MTEtNDk4Ny04NGY1LTY4YTFjYjkzYzQ1NQ.jpg" width="480px" height="320px" alt="Programming" ></p>
+<p>&nbsp;</p>
+<h3>How to use this Tool ?</h3>
+<ol style="font-size:20px";>
+	<li>Explore different fields in Computer Science.</li>
+	<li>Come back again to this website and think to choose an option listed below.</li>
+	<li>Choose the best option that suits your goal. </li>
+	<li>Now, Click on Continue..</li>
+	<li>Your result is displayed below Recommender : </li>
+	<li>If you like this, share this link to your friends...</li>
+</ol>
+<br>
+<h2>Why do you want to learn Programming ?</h2>
+
+<p style="color:blue;font-size:30px; font-family: fantasy; font-weight: bolder;" >Choose :</p> &nbsp;<select id = "choice">
+	<option value = "Select">Select</option>
+	<option value = "Nothing_Specific">Nothing Specific</option>
+	<option value = "Just_for_Fun">Just for Fun</option>
+	<option value = "Web_Development">Web Development</option>
+	<option value = "Job">Job in Companies</option>
+	<option value = "Software_Development">Software Development</option>
+	<option value = "Beginners">Beginners</option>
+	<option value = "Hacking">Hacking</option>
+	<option value = "App_Development">App Development</option>
+	<option value = "Cyber_Security">Cyber Security</option>
+	<option value = "Game_Development">Game Development</option>
+	<option value = "Data_Analytics">Data Analytics</option>
+	<option value = "Artificial_Intelligence">Artificial Intelligence</option>
+	<option value = "Animations">Animations and Visualizations</option>
+	<option value = "IOT">Do an IOT Project</option>
+	<option value = "Logics">Improve your Logics</option>
+	<option value = "Kids">Kids</option>
+	<option value = "Future">Future</option>
+	<option value = "Deep_Learning">Deep Learning</option>
+	<option value = "Earn_Money">Earn Money</option>
+	<option value = "Random">Random</option>
+</select>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+<button onclick="PLR()" >Continue</button><br>
+<p style="color:green;font-size:20px; font-weight: bold;" ><u>Recommender</u> :</p>
+<br>
+<h3 id="result" style=" font-size:26px; font-family: sans-serif; font-weight: bolder;"></h3><br>
+
+<p style="font-size:18px; font-weight: lighter;">Thank you for choosing our Tool.  All the best !</p><br>
+<h4 style="color:#FE045F;" >This page is contributed by &copy; <a href="https://github.com/GudiVaraprasad" target="_blank">GVP</a></h4>
+</body>
+</html>
