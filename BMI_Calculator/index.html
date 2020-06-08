@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Simple BMI Calculator</title>
+	<style type="text/css">
+		
+		body{
+			background-color: #010E21;
+			padding: 0px 15px;
+		}
+
+	</style>
+
+<script language="JavaScript">
+
+function BMI() {
+var weight = document.result.weight.value;
+var height = document.result.height.value;
+if(weight > 0 && height > 0){	
+var finalBMI = weight/(height/100*height/100);
+document.result.bmi.value = finalBMI;
+if(finalBMI < 18.6){
+document.result.meaning.value = "You are UNDERWEIGHT !";
+}
+if(finalBMI > 18.6 && finalBMI < 265){
+document.result.meaning.value = "You are HEALTHY!";
+}
+if(finalBMI > 26){
+document.result.meaning.value = "You are OVERWEIGHT !";
+}
+}
+else{
+alert("Invalid input ! Try again....");
+}
+}
+
+</script>
+
+</head>
+
+<body>
+
+	<h1 style="text-align: center; color:#03E35D"; ><u>BMI Calculator</u></h1><br>
+
+	<p>&nbsp;</p>
+<p><img src="https://media.springernature.com/w580h326/nature-cms/uploads/collections/BJC_BMI_2-3feeb5a4dfa8d2f65792e2c5638be6b0_new-73bb9cd655172c361fd6ed580e0ed8a7.jpg" width="680px" height="380px" alt="important" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://i1.wp.com/www.publichealthupdate.com/wp-content/uploads/2017/10/BMI-Calculator-for-women.jpg?fit=770%2C399&ssl=1" width="650px" height="380px" alt="calculation" ></p><br>
+
+	<h3 style="color:#FE045F;" >How to use this Tool ?</h3>
+<ol style="font-size:20px; color:white;">
+	<li>Record your Weight in kilograms (kg) </li>
+	<li>Enter your the measured weight in kilograms (kg). </li>
+	<li>Measure your height in centimeters (cm). </li>
+	<li>Enter your the measured height in centimeters (cm). </li>
+	<li>Click on Calculate BMI. </li>
+	<li>Your result is displayed : </li>
+	<li>A comment for the value is also written below it. </li>
+	<li>If you like this, share this link to your friends....</li>
+</ol>
+<br>
+<h3 style="color:#FE045F;">What does that comment means ?</h3>
+<p style="font-size:21px; color:white;">This tool will help you to calculate your BMI index. The BMI Value indicates as follows....</p>
+<ul style="font-size:20px; color:white;">
+	<li>Value &lt;18.6, you are <b style="color:#FEC02F;">UNDERWEIGHT</b>, you need to take some nutrious food and put on weight. </li>
+	<li>Value lies between &gt;18.6 and &lt;26, you are <b style="color:#0DFE56;">HEALTHY</b>, continue the same.</li>
+	<li>Value &gt;26, you are <b style="color:#FE9696;">OVERWEIGHT</b>, you need to exercise yourself.</li>
+</ul>
+<br>
+<img src="https://livegreensrilanka.files.wordpress.com/2016/08/bmi-for-men-and-women.png?w=740" width="750px" height="400px" alt="BMI Chart" ><br><br><br>
+
+<p style="color:#FAFE86; font-size:25px; font-family: fantasy; font-weight: bolder;" >Enter below :</p> &nbsp;<br>
+	<form name="result" style="color:white;">
+		Your Weight (kg) : <input type="text" name="weight" size="30" value="0.0"><br><br>
+		Your Height (cm) : <input type="text" name="height" size="30" value="0.0"><br><br>
+		<input type="button" size="33" value="Calculate BMI" onClick="BMI()"><br><br>
+		Your BMI : <input type="text" name="bmi" size="30" value="0.0"><br><br>
+		Comment : <input type="text" name="meaning" size="30" value="###"><br><br>
+		<input type="reset" value="Reset" size="33"><br><br>
+	</form>
+
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+<p style="font-size:18px; font-weight: lighter; color:white;" >Thank you for choosing our Tool. </p><br>
+<h4 style="color:#F6CB75;" >This page is contributed by &copy; <a href="https://github.com/GudiVaraprasad" target="_blank">GVP</a></h4>
+</body>
+</html>
