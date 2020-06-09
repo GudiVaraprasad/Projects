@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+	<head lang="en-US">
+		<meta charset="utf-8">
+		<title>Text to Audio</title>
+		<style>
+			
+			body{
+			background-color: #060d13;
+			padding: 5px 15px;
+			font-family: sans-serif;
+		}
+			input {
+			   	padding: 10px;
+			    width: 320px;
+			    height:20px;
+			    border-radius: 4px;
+			    border: solid 2px #BBB;
+			}
+			
+			button {
+			    background-color:#ffff1a;
+			    color: #e60073;
+			    border: 0px;
+			    cursor:pointer;
+			    border-radius: 6px;
+
+			}
+		</style>
+
+			<script>
+		
+            function textToAudio() {
+                let typed = document.getElementById("text-to-speech").value;
+                
+                let speech = new SpeechSynthesisUtterance();
+                speech.lang = "en-US";
+                speech.text = typed;
+                speech.volume = 4;
+                speech.rate = 0.75;
+                speech.pitch = 1.25;
+                window.speechSynthesis.speak(speech);
+            }
+		</script>
+	
+	</head>
+	<body>
+	    <h1 style="text-align: center; color:#03E35D"; ><u>Text to Speech Converter</u></h1><br>
+
+	    <p><img src="https://ourcodeworld.com/public-media/articles/articleocw-5831c46dc1057.jpg" width="670px" height="350px" alt="important" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://www.processmaker.com/wp-content/uploads/2019/10/dreamstime_xxl_133318648-768x461.jpg" width="640px" height="350px" alt="calculation" ></p><br>
+
+	    	<h3 style="color:#ff751a;" >How to use this Tool ?</h3>
+		<ol style="font-size:20px; color:white;">
+			<li>This tool is valid for <b style="color:#FEC02F;">English</b> language only.  </li>
+			<li>Enter any <b style="color:#8c8c8c;">Text</b> in english in the box below. &#9998; </li>
+			<li>Now click on <b style="color:#e60073;">Tap to speak</b> button. </li>
+			<li>The device starts to read the text that you have entered. &#129331;</li>
+			<li>If you like this, share this link to your friends...</li>
+		</ol>
+		&nbsp;
+	    <div style="color:white; font-size:18px;" ><b style="color:#ff751a">NOTE :</b> Enter any text and click on Tap to speak button.</div>
+	    &nbsp;
+	    <p style="color:#03E35D; font-size:22px; font-family: all; font-weight: bolder;" >Enter : &#128071;</p>
+	    &nbsp;
+		<div><input type="text" id="text-to-speech" placeholder="Enter any text to speak  &#9998;"/></div>
+		&nbsp;
+        <div><button size="30" type="button" onclick="textToAudio()"><b>Tap to Speak</b></button></div><br><br>
+        &nbsp;
+        <p style="font-size:18px; font-weight: lighter; color:white;" >Thank you for choosing our Tool. </p><br>
+<h4 style="color:#F6CB75;" >This page is contributed by &copy; <a href="https://github.com/GudiVaraprasad" target="_blank" style="color:#009999;">GVP</a></h4>
+	</body>
+</html>
