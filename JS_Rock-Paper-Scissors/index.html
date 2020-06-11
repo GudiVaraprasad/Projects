@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Rock Paper Scissors</title>
+
+    <style type="text/css">
+      body {
+        padding: 10px 8px 0px 5px;
+        background-color: #ebe8fa;
+        font-family: sans-serif;
+        box-sizing: border-box;
+      }
+      .button {
+        background-color: black;
+        color: white;
+        padding: 0.5%;
+        text-align: center;
+        display: inline-block;
+        font-size: 22px;
+        width: 120px;
+        transition-duration: 0.4s ease;
+      }
+      .button:hover {
+        background-color: #32CD32;
+        color: black;
+}
+    </style>
+
+</head>
+<body>
+
+    <h1 style="font-family: all; color:#e6005c; text-align: center;" ><u><b>ROCK PAPER SCISSORS</b></u><span style="font-family: serif; color: black; font-size: 21px;">&nbsp;&nbsp;&nbsp;&nbsp;(2-players)</span></h1><br><br>
+
+    <div><img src="banner.jpg" width="1500px" height="430px" ></div><br><br>
+
+    <h2 style="font-family: all; font-weight: bold; color:#002570">About game :</h2>
+    <p style="font-family: sans-serif; font-weight: normal; font-size: 21px;" >Rock Paper Scissors is a zero sum game that is usually played by two people using their hands and no tools. The idea is to make shapes with an outstretched hand where each shape will have a certain degree of power and will lead to an outcome.People find it quite hard to pick a sequence of perfectly random choices, so any pattern that a player develops could be learned by the opponent and used to win the game.As you play, the players learn the pattern of objects that you are most likely to pick.</p><br>
+
+    <h2 style="font-family: all; font-weight: bold; color:#002570">Why is Rock Paper Scissors played?</h2>
+    <p style="font-family: sans-serif; font-weight: normal; font-size: 21px;">This game is played by children and adults and is popular all over the world. Apart from being a game played to pass the time, the game is usually played in situations where something has to be chosen. It is similar in that way to other games like flipping the coin, throwing dice or drawing straws. There is no room for cheating or for knowing what the other person is going to do so the results are usually very satisfying with no room for fighting or error.</p><br>
+
+    <h2 style="font-family: all; font-weight: bold; color:#002570">Rules of the game : </h2>
+    <div>
+      <ul style="font-family: sans-serif; font-weight: normal; font-size: 21px;" >
+        <li>Rock wins against scissors.</li>
+        <li>Scissors wins against paper.</li>
+        <li>Paper wins against rock.</li>
+        <li>If chose Same ? Draw game !</li>
+      </ul>
+      <span><img src="rps1.gif" width="300px" height="200px" ></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span><img src="rps2.gif" width="300px" height="200px" ></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span><img src="rps3.jpg" width="340px" height="200px" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span><img src="rps4.gif" width="300px" height="200px" ></span>
+    </div><br>
+
+    <h2 style="font-family: all; color:#002570;">How to play ?</h2>
+    <div>
+      <ol style="font-family: sans-serif; font-weight: normal; font-size: 21px;">
+        <li>This is a 2 player game only.</li>
+        <li>Bring a player and start this Multiplayer.</li>
+        <li>Click on <b style="font-weight: bold; font-size: 21px; color:#fa020b" >PLAY</b></li>
+        <li>Both the players enter your names.</li>
+        <li>After entering your names, you have to pick an object by clicking the respective button. </li>
+        <li>The screen will display your score above. </li>
+        <li>The challenge of the game is to guess what your opponent will choose and pick the appropriate object to beat them.</li>
+      </ol>
+    </div><br>
+    <h2 style="font-family: unset; color:#002570">Let's PLAY : </h2><br>
+
+    <div><button class="button" type="button" onclick="playGame()"><b>PLAY</b></button></div>
+
+
+    <script type="text/javascript">
+
+      function playGame(){
+
+        var name1 = prompt("Enter the name of Player 1 : ");
+        var user1 = prompt(name1+" \n1.ROCK\n2.PAPER\n3.SCISSORS\n Choose your object number : ");
+        var play1 = (user1<4) ? confirm(name1+", you have choosen "+user1+". So, click on OK to continue "): playGame();
+
+        var name2 = prompt("Enter the name of Player 2 : ");
+    
+    var user2 = prompt(name2+" \n1.ROCK\n2.PAPER\n3.SCISSORS\n Choose your object number : ");
+    var play2 = (user2<4) ? confirm(name2+", you have choosen "+user2+". So, click on OK to continue "): playGame();
+   
+    if (user1 === "1") {
+        if (user2 === "3") {
+            alert("Congrats ! " + name1 + " won");
+        } else if (user2 === "2") {
+          alert("Congrats ! " + name2 + " won");  
+        } else {
+            alert("It's a Draw Game...");
+        }
+    } else if (user1 === "2") {
+        if (user2 === "1") {
+            alert("Congrats ! " + name2 + " won");
+        } else if (user2 === "3") {
+            alert("Congrats ! " + name2 + " won");
+        } else {
+          alert("It's a Draw Game...");
+        }
+    } else if (user1 === "3") {
+        if (user2 === "1") {
+            alert("Congrats ! " + name1 + " won");
+        } else if (user2 === "2") {
+            alert("Congrats ! " + name1 + " won");
+        } else {
+            alert("It's a Draw Game...");
+        }
+    }
+    
+    var playAgain = prompt("Wanna Play Again ?\n1.YES\n2.NO");
+    if(playAgain==="1") {
+        
+        playGame();
+    }else{
+      window.close();
+    }
+}
+
+
+ </script>
+ 
+
+  <br><p style="font-size:15px; font-weight: 600; color:#181033;" >Enjoyed the game, share it with your friends... </p>
+  <p style="font-size:15px; font-weight: lighter; color:black;" >Thank you for choosing our Tool. </p>
+  <div></div>
+  <h4 style="color:#180033;" >This game is contributed by &copy; <a href="https://github.com/GudiVaraprasad" target="_blank" style="color: #e6005c;">GVP</a></h4>
+</body>
+</html>
