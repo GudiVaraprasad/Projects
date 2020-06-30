@@ -1,6 +1,5 @@
 # Projects - CSE Mini Projects
 
-<html>
 Please share these projects to your friends. Make use of this repo when you start as a beginner...
 
 <h1>Welcome to GitHub</h1>
@@ -21,4 +20,4 @@ Right now, we’re in your first GitHub repository. A repository is like a folde
 <br>
 <h1>Everything you need to know about GitHub</h1>
 Getting started is the hardest part. If there’s anything you’d like to know as you get started with GitHub, try searching <a href="https://help.github.com/en" target="_blank">GitHub Help</a>. Our documentation has tutorials on everything from changing your repository settings to configuring GitHub from your command line.
-</html>
+
