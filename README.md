@@ -6,7 +6,7 @@ Please share these projects to your friends. Make use of this repo when you star
 
 Welcome to GitHub—where millions of developers work together on software. Ready to get started? Let’s learn how this all works by building and publishing your first GitHub Pages website!
 
-![image](https://drive.google.com/uc?export=view&id=1t-5MGZJpDE_aZSiPqlhQTktTWQ4fmEI5)
+![image](https://drive.google.com/uc?export=view&id=1wC3tFsgHib3uOFcDWGUpqASksbVFc-LJ)
 
 
 
