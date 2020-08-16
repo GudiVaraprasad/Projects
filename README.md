@@ -1,4 +1,4 @@
-# Projects - CSE Mini Projects
+# CSE Mini Projects
 
 Please share these projects to your friends. Make use of this repo when you start as a beginner...
 
@@ -16,8 +16,12 @@ Right now, we’re in your first GitHub repository. A repository is like a folde
 
 ![image](https://drive.google.com/uc?export=view&id=1nUICrvfu19e4wqKxNOKK0hf6USINA3b6)
 
+## Link is here :
+[My Projects](https://github.com/GudiVaraprasad/Projects)
 
 <h1>Everything you need to know about GitHub</h1>
 
 Getting started is the hardest part. If there’s anything you’d like to know as you get started with GitHub, try searching <a href="https://help.github.com/en" target="_blank">GitHub Help</a>. Our documentation has tutorials on everything from changing your repository settings to configuring GitHub from your command line.
+
+### * &copy; 2020 GVP *
 
