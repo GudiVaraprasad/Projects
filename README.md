@@ -23,5 +23,5 @@ Right now, we’re in your first GitHub repository. A repository is like a folde
 
 Getting started is the hardest part. If there’s anything you’d like to know as you get started with GitHub, try searching <a href="https://help.github.com/en" target="_blank">GitHub Help</a>. Our documentation has tutorials on everything from changing your repository settings to configuring GitHub from your command line.
 
-### * &copy; 2020 GVP *
+* &copy; 2020 GVP *
 
