@@ -1,0 +1,311 @@
+<Layout units="mm" worldFileMap="{d5bdb594-ac90-4e95-b528-3e1f614be862}" name="Loss in GSDP in %" printResolution="300">
+ <Snapper snapToGuides="1" snapToGrid="0" tolerance="5" snapToItems="1"/>
+ <Grid offsetY="0" offsetUnits="mm" offsetX="0" resolution="10" resUnits="mm"/>
+ <PageCollection>
+  <symbol clip_to_extent="1" type="fill" name="" alpha="1" force_rhr="0">
+   <layer pass="0" enabled="1" class="SimpleFill" locked="0">
+    <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+    <prop v="255,255,255,255" k="color"/>
+    <prop v="miter" k="joinstyle"/>
+    <prop v="0,0" k="offset"/>
+    <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+    <prop v="MM" k="offset_unit"/>
+    <prop v="35,35,35,255" k="outline_color"/>
+    <prop v="no" k="outline_style"/>
+    <prop v="0.26" k="outline_width"/>
+    <prop v="MM" k="outline_width_unit"/>
+    <prop v="solid" k="style"/>
+    <data_defined_properties>
+     <Option type="Map">
+      <Option value="" type="QString" name="name"/>
+      <Option name="properties"/>
+      <Option value="collection" type="QString" name="type"/>
+     </Option>
+    </data_defined_properties>
+   </layer>
+  </symbol>
+  <LayoutItem excludeFromExports="0" outlineWidthM="0.3,mm" position="0,0,mm" opacity="1" referencePoint="0" frame="false" zValue="0" type="65638" uuid="{4b5a1fe5-c909-4f02-9d43-02d2d49136c9}" visibility="1" blendMode="0" itemRotation="0" positionLock="false" groupUuid="" frameJoinStyle="miter" positionOnPage="0,0,mm" background="true" size="297,210,mm" templateUuid="{4b5a1fe5-c909-4f02-9d43-02d2d49136c9}" id="">
+   <FrameColor blue="0" green="0" red="0" alpha="255"/>
+   <BackgroundColor blue="255" green="255" red="255" alpha="255"/>
+   <LayoutObject>
+    <dataDefinedProperties>
+     <Option type="Map">
+      <Option value="" type="QString" name="name"/>
+      <Option name="properties"/>
+      <Option value="collection" type="QString" name="type"/>
+     </Option>
+    </dataDefinedProperties>
+    <customproperties/>
+   </LayoutObject>
+   <symbol clip_to_extent="1" type="fill" name="" alpha="1" force_rhr="0">
+    <layer pass="0" enabled="1" class="SimpleFill" locked="0">
+     <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+     <prop v="255,255,255,255" k="color"/>
+     <prop v="miter" k="joinstyle"/>
+     <prop v="0,0" k="offset"/>
+     <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+     <prop v="MM" k="offset_unit"/>
+     <prop v="35,35,35,255" k="outline_color"/>
+     <prop v="no" k="outline_style"/>
+     <prop v="0.26" k="outline_width"/>
+     <prop v="MM" k="outline_width_unit"/>
+     <prop v="solid" k="style"/>
+     <data_defined_properties>
+      <Option type="Map">
+       <Option value="" type="QString" name="name"/>
+       <Option name="properties"/>
+       <Option value="collection" type="QString" name="type"/>
+      </Option>
+     </data_defined_properties>
+    </layer>
+   </symbol>
+  </LayoutItem>
+  <GuideCollection visible="1"/>
+ </PageCollection>
+ <LayoutItem excludeFromExports="0" outlineWidthM="0.3,mm" position="2.53077,1.80769,mm" labelText="The state-wise breakdown of loss as % of GSDP during COVID 19 for India Businesses" opacity="1" htmlState="0" referencePoint="0" frame="false" zValue="5" marginY="0" type="65641" uuid="{e598e237-4eea-453d-a4ba-bd95a0b57360}" visibility="1" valign="32" blendMode="0" itemRotation="0" positionLock="false" groupUuid="" marginX="0" frameJoinStyle="miter" positionOnPage="2.53077,1.80769,mm" background="false" size="292.369,8.31538,mm" templateUuid="{e598e237-4eea-453d-a4ba-bd95a0b57360}" id="" halign="8">
+  <FrameColor blue="0" green="0" red="0" alpha="255"/>
+  <BackgroundColor blue="255" green="255" red="255" alpha="255"/>
+  <LayoutObject>
+   <dataDefinedProperties>
+    <Option type="Map">
+     <Option value="" type="QString" name="name"/>
+     <Option name="properties"/>
+     <Option value="collection" type="QString" name="type"/>
+    </Option>
+   </dataDefinedProperties>
+   <customproperties/>
+  </LayoutObject>
+  <LabelFont style="" description="MS Shell Dlg 2,21,-1,5,50,0,0,0,0,0"/>
+  <FontColor blue="15" green="60" red="26" alpha="255"/>
+ </LayoutItem>
+ <LayoutItem excludeFromExports="0" outlineWidthM="0.3,mm" position="174.6,105,mm" multiFrame="{0e21b94e-cb6a-49ae-a625-3c493482dea6}" opacity="1" referencePoint="0" hideBackgroundIfEmpty="0" sectionX="0" frame="false" sectionWidth="120.3" zValue="4" type="65647" uuid="{20745dc5-dd3b-4d62-b867-f450511405d4}" visibility="1" hidePageIfEmpty="0" multiFrameTemplateUuid="{0e21b94e-cb6a-49ae-a625-3c493482dea6}" blendMode="0" itemRotation="0" positionLock="false" sectionHeight="102.469" groupUuid="" frameJoinStyle="miter" positionOnPage="174.6,105,mm" background="false" size="120.3,102.469,mm" templateUuid="{20745dc5-dd3b-4d62-b867-f450511405d4}" sectionY="0" id="">
+  <FrameColor blue="0" green="0" red="0" alpha="255"/>
+  <BackgroundColor blue="255" green="255" red="255" alpha="255"/>
+  <LayoutObject>
+   <dataDefinedProperties>
+    <Option type="Map">
+     <Option value="" type="QString" name="name"/>
+     <Option name="properties"/>
+     <Option value="collection" type="QString" name="type"/>
+    </Option>
+   </dataDefinedProperties>
+   <customproperties/>
+  </LayoutObject>
+ </LayoutItem>
+ <LayoutItem excludeFromExports="0" linked_map="{d5bdb594-ac90-4e95-b528-3e1f614be862}" outlineWidthM="0.2,mm" position="174.7,12.1385,mm" opacity="1" filter_by_map="0" referencePoint="0" frame="true" zValue="3" type="76987" uuid="{c6abc978-af11-4762-9919-a8920d546fae}" visibility="1" blendMode="0" itemRotation="0" positionLock="true" groupUuid="" frameJoinStyle="miter" positionOnPage="174.7,12.1385,mm" background="true" size="120.392,90.0692,mm" templateUuid="{c6abc978-af11-4762-9919-a8920d546fae}" id="" filter_by_atlas="0">
+  <FrameColor blue="0" green="0" red="0" alpha="255"/>
+  <BackgroundColor blue="255" green="255" red="255" alpha="255"/>
+  <LayoutObject>
+   <dataDefinedProperties>
+    <Option type="Map">
+     <Option value="" type="QString" name="name"/>
+     <Option name="properties"/>
+     <Option value="collection" type="QString" name="type"/>
+    </Option>
+   </dataDefinedProperties>
+   <customproperties/>
+  </LayoutObject>
+  <Option type="Map">
+   <Option type="Map" name="dynamic_properties">
+    <Option value="" type="QString" name="name"/>
+    <Option name="properties"/>
+    <Option value="collection" type="QString" name="type"/>
+   </Option>
+   <Option type="Map" name="plot_layout">
+    <Option value="" type="QString" name="additional_info_expression"/>
+    <Option value="group" type="QString" name="bar_mode"/>
+    <Option value="0" type="double" name="bargaps"/>
+    <Option value="rgba(0,0,0,0)" type="QString" name="bg_color"/>
+    <Option value="false" type="bool" name="bins_check"/>
+    <Option value="true" type="bool" name="legend"/>
+    <Option value="v" type="QString" name="legend_orientation"/>
+    <Option type="invalid" name="legend_title"/>
+    <Option type="Map" name="polar">
+     <Option type="Map" name="angularaxis">
+      <Option value="clockwise" type="QString" name="direction"/>
+     </Option>
+    </Option>
+    <Option type="Map" name="range_slider">
+     <Option value="1" type="int" name="borderwidth"/>
+     <Option value="false" type="bool" name="visible"/>
+    </Option>
+    <Option value="COVID 19 impact on Indian Businesses GSDP " type="QString" name="title"/>
+    <Option type="invalid" name="x_inv"/>
+    <Option type="invalid" name="x_max"/>
+    <Option type="invalid" name="x_min"/>
+    <Option value="States" type="QString" name="x_title"/>
+    <Option value="linear" type="QString" name="x_type"/>
+    <Option type="invalid" name="xaxis"/>
+    <Option type="invalid" name="y_inv"/>
+    <Option type="invalid" name="y_max"/>
+    <Option type="invalid" name="y_min"/>
+    <Option value="Loss in GDP in %" type="QString" name="y_title"/>
+    <Option value="linear" type="QString" name="y_type"/>
+    <Option value="" type="QString" name="z_title"/>
+   </Option>
+   <Option type="Map" name="plot_properties">
+    <Option type="invalid" name="additional_hover_text"/>
+    <Option value="0" type="int" name="bins"/>
+    <Option value="v" type="QString" name="box_orientation"/>
+    <Option value="false" type="bool" name="box_outliers"/>
+    <Option value="false" type="bool" name="box_stat"/>
+    <Option value="Greys" type="QString" name="color_scale"/>
+    <Option value="false" type="bool" name="color_scale_data_defined_in_check"/>
+    <Option value="false" type="bool" name="color_scale_data_defined_in_invert_check"/>
+    <Option value="fill" type="QString" name="cont_type"/>
+    <Option value="Fill" type="QString" name="contour_type_combo"/>
+    <Option value="false" type="bool" name="cumulative"/>
+    <Option type="List" name="custom">
+     <Option value="States" type="QString"/>
+    </Option>
+    <Option value="auto" type="QString" name="hover_label_position"/>
+    <Option type="invalid" name="hover_label_text"/>
+    <Option value="all" type="QString" name="hover_text"/>
+    <Option value="#8ebad9" type="QString" name="in_color"/>
+    <Option value="false" type="bool" name="invert_color_scale"/>
+    <Option value="increasing" type="QString" name="invert_hist"/>
+    <Option value="Solid Line" type="QString" name="line_combo"/>
+    <Option value="solid" type="QString" name="line_dash"/>
+    <Option value="markers" type="QString" name="marker"/>
+    <Option value="10" type="double" name="marker_size"/>
+    <Option value="0" type="int" name="marker_symbol"/>
+    <Option value="Points" type="QString" name="marker_type_combo"/>
+    <Option value="1" type="double" name="marker_width"/>
+    <Option value="Loss in GDP in %" type="QString" name="name"/>
+    <Option value="" type="QString" name="normalization"/>
+    <Option value="1" type="double" name="opacity"/>
+    <Option value="#1f77b4" type="QString" name="out_color"/>
+    <Option value="" type="QString" name="point_combo"/>
+    <Option value="false" type="bool" name="selected_features_only"/>
+    <Option value="false" type="bool" name="show_colorscale_legend"/>
+    <Option value="false" type="bool" name="show_lines"/>
+    <Option value="false" type="bool" name="show_lines_check"/>
+    <Option value="false" type="bool" name="show_mean_line"/>
+    <Option value="false" type="bool" name="violin_box"/>
+    <Option value="both" type="QString" name="violin_side"/>
+    <Option value="false" type="bool" name="visible_features_only"/>
+    <Option value="States" type="QString" name="x_name"/>
+    <Option value="Loss in GDP in %" type="QString" name="y_name"/>
+    <Option value="" type="QString" name="z_name"/>
+   </Option>
+   <Option value="bar" type="QString" name="plot_type"/>
+   <Option value="GSDP_68b95b44_3dce_4049_a010_f596b01a3366" type="QString" name="source_layer_id"/>
+  </Option>
+ </LayoutItem>
+ <LayoutItem wrapChar="" frame="true" uuid="{733a6afb-20fa-45be-aa66-124bda5e1a45}" equalColumnWidth="0" map_uuid="{d5bdb594-ac90-4e95-b528-3e1f614be862}" rasterBorderWidth="0" itemRotation="0" type="65642" columnCount="1" background="true" groupUuid="" fontColor="#000000" legendFilterByAtlas="0" splitLayer="0" templateUuid="{733a6afb-20fa-45be-aa66-124bda5e1a45}" columnSpace="2" boxSpace="2" referencePoint="0" symbolAlignment="1" id="" wmsLegendWidth="50" wmsLegendHeight="25" symbolHeight="4" visibility="1" positionLock="true" position="102.508,16.9923,mm" opacity="1" resizeToContents="1" title="" symbolWidth="7" titleAlignment="1" outlineWidthM="0.2,mm" rasterBorder="1" frameJoinStyle="miter" size="36,57.2,mm" positionOnPage="102.508,16.9923,mm" zValue="2" blendMode="0" lineSpacing="1" excludeFromExports="0" rasterBorderColor="0,0,0,255">
+  <FrameColor blue="0" green="0" red="0" alpha="255"/>
+  <BackgroundColor blue="255" green="255" red="255" alpha="255"/>
+  <LayoutObject>
+   <dataDefinedProperties>
+    <Option type="Map">
+     <Option value="" type="QString" name="name"/>
+     <Option name="properties"/>
+     <Option value="collection" type="QString" name="type"/>
+    </Option>
+   </dataDefinedProperties>
+   <customproperties/>
+  </LayoutObject>
+  <styles>
+   <style alignment="1" marginBottom="3.5" name="title">
+    <styleFont style="" description="MS Shell Dlg 2,16,-1,5,50,0,0,0,0,0"/>
+   </style>
+   <style alignment="1" marginTop="3" name="group">
+    <styleFont style="" description="MS Shell Dlg 2,14,-1,5,50,0,0,0,0,0"/>
+   </style>
+   <style alignment="1" marginTop="3" name="subgroup">
+    <styleFont style="" description="MS Shell Dlg 2,12,-1,5,50,0,0,0,0,0"/>
+   </style>
+   <style alignment="1" marginTop="2.5" name="symbol">
+    <styleFont style="" description="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0"/>
+   </style>
+   <style alignment="1" marginTop="2" name="symbolLabel" marginLeft="2">
+    <styleFont style="" description="MS Shell Dlg 2,12,-1,5,50,0,0,0,0,0"/>
+   </style>
+  </styles>
+  <layer-tree-group>
+   <customproperties/>
+   <layer-tree-layer legend_split_behavior="0" checked="Qt::Checked" source="../../../DIVA-GIS/india_boundaries/IND_adm1.shp" expanded="1" legend_exp="" name="Loss in GDP in %" id="IND_adm1_ba0b4952_27eb_4699_8707_099fd931151f" providerKey="ogr" patch_size="-1,-1">
+    <customproperties>
+     <property key="cached_name" value="Loss in GDP in %"/>
+     <property key="expandedLegendNodes">
+      <value>0</value>
+      <value>1</value>
+      <value>2</value>
+      <value>3</value>
+      <value>4</value>
+      <value>5</value>
+      <value>6</value>
+     </property>
+    </customproperties>
+   </layer-tree-layer>
+   <custom-order enabled="0"/>
+  </layer-tree-group>
+ </LayoutItem>
+ <LayoutItem excludeFromExports="0" keepLayerSet="false" outlineWidthM="0.2,mm" position="2.63077,12.1385,mm" drawCanvasItems="true" opacity="1" referencePoint="0" frame="true" zValue="1" type="65639" uuid="{d5bdb594-ac90-4e95-b528-3e1f614be862}" visibility="1" mapFlags="0" blendMode="0" isTemporal="0" itemRotation="0" positionLock="true" followPreset="false" groupUuid="" mapRotation="0" frameJoinStyle="miter" positionOnPage="2.63077,12.1385,mm" followPresetName="" background="true" size="168.477,195.231,mm" templateUuid="{d5bdb594-ac90-4e95-b528-3e1f614be862}" id="" labelMargin="0,mm">
+  <FrameColor blue="0" green="0" red="0" alpha="255"/>
+  <BackgroundColor blue="255" green="255" red="255" alpha="255"/>
+  <LayoutObject>
+   <dataDefinedProperties>
+    <Option type="Map">
+     <Option value="" type="QString" name="name"/>
+     <Option name="properties"/>
+     <Option value="collection" type="QString" name="type"/>
+    </Option>
+   </dataDefinedProperties>
+   <customproperties/>
+  </LayoutObject>
+  <Extent ymin="6.10270724584158586" xmax="97.71438629605790993" xmin="67.38360821216974728" ymax="41.24996081944588866"/>
+  <LayerSet/>
+  <AtlasMap atlasDriven="0" margin="0.10000000000000001" scalingMode="2"/>
+  <labelBlockingItems/>
+ </LayoutItem>
+ <LayoutMultiFrame verticalGrid="1" relationId="" contentFontColor="0,0,0,255" gridColor="0,0,0,255" emptyTableMessage="" vectorLayer="GSDP_68b95b44_3dce_4049_a010_f596b01a3366" vectorLayerSource="file:///E:/VITAP/19BCE7048/Semester%203/Lean%20Startup/Assignment%202%20-%20Dashboard/Datasets/GVP%20Dataset/GSDP/GSDP.csv?encoding=latin4&amp;type=csv&amp;maxFields=10000&amp;detectTypes=yes&amp;geomType=none&amp;subsetIndex=no&amp;watchFile=no" showUniqueRowsOnly="0" maxFeatures="28" vectorLayerProvider="delimitedtext" headerFontColor="0,0,0,255" cellMargin="1" type="65649" horizontalGrid="1" wrapString="" uuid="{0e21b94e-cb6a-49ae-a625-3c493482dea6}" headerHAlignment="0" resizeMode="0" featureFilter="" vectorLayerName="GSDP" filterFeatures="false" gridStrokeWidth="0.5" showOnlyVisibleFeatures="0" useConditionalStyling="0" showEmptyRows="0" wrapBehavior="0" showGrid="1" emptyTableMode="0" filterToAtlasIntersection="0" templateUuid="{0e21b94e-cb6a-49ae-a625-3c493482dea6}" source="0" headerMode="0" backgroundColor="255,255,255,255">
+  <childFrame uuid="{20745dc5-dd3b-4d62-b867-f450511405d4}" templateUuid="{20745dc5-dd3b-4d62-b867-f450511405d4}"/>
+  <LayoutObject>
+   <dataDefinedProperties>
+    <Option type="Map">
+     <Option value="" type="QString" name="name"/>
+     <Option name="properties"/>
+     <Option value="collection" type="QString" name="type"/>
+    </Option>
+   </dataDefinedProperties>
+   <customproperties/>
+  </LayoutObject>
+  <headerFontProperties style="" description="MS Shell Dlg 2,11.8,-1,5,50,0,0,0,0,0"/>
+  <contentFontProperties style="" description="MS Shell Dlg 2,8.8,-1,5,50,0,0,0,0,0"/>
+  <displayColumns>
+   <column heading="States" width="0" sortByRank="0" vAlignment="128" sortOrder="0" hAlignment="1" attribute="States">
+    <backgroundColor blue="0" green="0" red="0" alpha="0"/>
+   </column>
+   <column heading="Loss in GDP in %" width="0" sortByRank="0" vAlignment="128" sortOrder="0" hAlignment="1" attribute="Loss in GDP in %">
+    <backgroundColor blue="0" green="0" red="0" alpha="0"/>
+   </column>
+  </displayColumns>
+  <sortColumns>
+   <column heading="States" width="0" sortByRank="0" vAlignment="128" sortOrder="0" hAlignment="1" attribute="States">
+    <backgroundColor blue="0" green="0" red="0" alpha="0"/>
+   </column>
+  </sortColumns>
+  <cellStyles>
+   <oddColumns enabled="0" cellBackgroundColor="255,255,255,255"/>
+   <evenColumns enabled="0" cellBackgroundColor="255,255,255,255"/>
+   <oddRows enabled="0" cellBackgroundColor="255,255,255,255"/>
+   <evenRows enabled="0" cellBackgroundColor="255,255,255,255"/>
+   <firstColumn enabled="0" cellBackgroundColor="255,255,255,255"/>
+   <lastColumn enabled="0" cellBackgroundColor="255,255,255,255"/>
+   <headerRow enabled="0" cellBackgroundColor="255,255,255,255"/>
+   <firstRow enabled="0" cellBackgroundColor="255,255,255,255"/>
+   <lastRow enabled="0" cellBackgroundColor="255,255,255,255"/>
+  </cellStyles>
+ </LayoutMultiFrame>
+ <customproperties>
+  <property key="atlasRasterFormat" value="png"/>
+  <property key="imageAntialias" value="true"/>
+  <property key="imageCropMarginBottom" value="0"/>
+  <property key="imageCropMarginLeft" value="0"/>
+  <property key="imageCropMarginRight" value="0"/>
+  <property key="imageCropMarginTop" value="0"/>
+  <property key="imageCropToContents" value="false"/>
+ </customproperties>
+ <Atlas filterFeatures="0" enabled="0" sortFeatures="0" pageNameExpression="" hideCoverage="0" coverageLayer="" filenamePattern="'output_'||@atlas_featurenumber"/>
+</Layout>
