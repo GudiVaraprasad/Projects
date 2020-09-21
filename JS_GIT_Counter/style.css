@@ -1,0 +1,30 @@
+
+body {
+  background: #22292c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  overflow: hidden;
+}
+
+.responsive {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 50%;
+  display: block;
+}
+
+.description {
+  transition: 0.9s ease-in-out;
+}
+
+.footer {
+  position: fixed;
+  left: 10px;
+  bottom: 5px;
+  width: 100%;
+  background-color: #22292c;
+  text-align: left;
+}
