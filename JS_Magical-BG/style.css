@@ -1,0 +1,77 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: #34495e;
+}
+
+.box {
+	position: absolute;
+	top: 40px;
+	right: 40px;
+	padding: 5px;
+	background: #f1f1f1;
+	align-content: inherit;
+}
+
+.box a {
+	width: 40px;
+	height: 40px;
+	float: left;
+	text-indent: -9999px;
+	margin: 6px;
+	cursor: pointer;
+}
+
+.footer {
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  width: 100%;
+  background-color: #34495e;
+  text-align: center;
+}
+
+
+#red {
+	background: #FF3031;
+}
+
+#blue {
+	background: #0A79DF;
+}
+
+#green {
+	background: #019031;
+}
+
+#gray {
+	background: #7B8788;
+}
+
+#yellow {
+	background: #FFF222;
+}
+
+#orange {
+	background: #ff6600;
+}
+
+#pink {
+	background: #ff0066;
+}
+
+#violet {
+	background: #8600b3;
+}
+
+#brown {
+	background: #330000;
+}
+
+#white {
+	background: #FFFF;
+}
+
+#black {
+	background: #000000;
+}
