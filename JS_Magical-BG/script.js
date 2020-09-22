@@ -1,4 +1,5 @@
 
 function changecolor(id) {
-	document.body.style.background = document.getElementByID(id).innerHTML;
+	document.body.style.background = document.getElementById(id).innerHTML;
+	document.addEventListener('contextmenu', event => event.preventDefault());
 }
