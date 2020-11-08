@@ -6,15 +6,14 @@ Please share these projects to your friends. Make use of this repo when you star
 
 Welcome to GitHub—where millions of developers work together on software. Ready to get started? Let’s learn how this all works by building and publishing your first GitHub Pages website!
 
-![image](https://drive.google.com/uc?export=view&id=1wC3tFsgHib3uOFcDWGUpqASksbVFc-LJ)
-
+![](./gitgvp.jpg)
 
 
 <h1>Repositories</h1>
 
 Right now, we’re in your first GitHub repository. A repository is like a folder or storage space for your project. Your project's repository contains all its files such as code, documentation, images, and more. It also tracks every change that you—or your collaborators—make to each file, so you can always go back to previous versions of your project if you make any mistakes. This repository contains basic CSE Mini Projects
 
-![image](https://drive.google.com/uc?export=view&id=1nUICrvfu19e4wqKxNOKK0hf6USINA3b6)
+![](./code.jpg)
 
 <h1>Everything you need to know about GitHub</h1>
 
