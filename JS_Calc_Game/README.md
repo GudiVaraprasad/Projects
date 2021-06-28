@@ -18,5 +18,5 @@ Calc - A simple interesting Javascript calculating game. Try how hard you can hi
 > Hit it here :
 > [Play it here](https://gudivaraprasad.github.io/Projects/JS_Calc_Game/)
 
-> Project Demo :
-> [Click Here for demo](https://www.youtube.com/channel/UCR2gr-sBjqnH0gW-Ca6i7Hw?sub_confirmation=1)
+> Youtube Demo :
+> [Click Here](https://www.youtube.com/channel/UCR2gr-sBjqnH0gW-Ca6i7Hw?sub_confirmation=1)
