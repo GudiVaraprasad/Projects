@@ -11,6 +11,8 @@ Calc - A simple interesting Javascript calculating game. Try how hard you can hi
 3. When you hit it right, screen turns green and red when it's a wrong.
 4. Give it a try, how strong you can hit maximum in 30 seconds.
 
+<br>
+
 > My best is 15 hits.
 > Computer's best is 29 hits.
 > Whats's yours ?
