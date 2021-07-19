@@ -1,0 +1,45 @@
+html {
+  font-family: 'Della Respira', serif;
+  background-color: whitesmoke;
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+input {
+  color: #311D3F;
+  font-weight: 600;
+}
+
+.select-dropdown>li>span{
+  color: #311D3F;
+  font-weight: 600;
+  }
+
+#input_text {
+  font-weight: 900;
+}
+
+.nav-wrapper {
+	background-color: #311D3F;
+}
+
+.brand-logo {
+font-family: 'Permanent Marker', cursive;
+}
+
+.material-icons {
+  color: #DCEDC1;
+}
+
+.footer-one {
+	background: #522546;
+  color: #DCEDC1;
+}
