@@ -1,7 +1,8 @@
-function func_reset() { window.location.reload(); }
+function func_reset() {
+  window.location.reload();
+}
 
 function func_gpa() {
-
   var credits1 = parseInt(document.getElementById("cc1").value);
   var grade1 = parseInt(document.getElementById("cg1").value);
   var course1 = credits1 * grade1;
@@ -34,6 +35,18 @@ function func_gpa() {
   var grade8 = parseInt(document.getElementById("cg8").value);
   var course8 = credits8 * grade8;
 
+  var credits9 = parseInt(document.getElementById("cc9").value);
+  var grade9 = parseInt(document.getElementById("cg9").value);
+  var course9 = credits9 * grade9;
+
+  var credits10 = parseInt(document.getElementById("cc10").value);
+  var grade10 = parseInt(document.getElementById("cg10").value);
+  var course10 = credits10 * grade10;
+
+  var credits11 = parseInt(document.getElementById("cc11").value);
+  var grade11 = parseInt(document.getElementById("cg11").value);
+  var course11 = credits11 * grade11;
+
   var ccredits1 = document.getElementById("cc1").value;
   var ccredits2 = document.getElementById("cc2").value;
   var ccredits3 = document.getElementById("cc3").value;
@@ -42,50 +55,87 @@ function func_gpa() {
   var ccredits6 = document.getElementById("cc6").value;
   var ccredits7 = document.getElementById("cc7").value;
   var ccredits8 = document.getElementById("cc8").value;
+  var ccredits9 = document.getElementById("cc9").value;
+  var ccredits10 = document.getElementById("cc10").value;
+  var ccredits11 = document.getElementById("cc11").value;
 
-  if (ccredits1 == '') {
+  if (ccredits1 == "") {
     var credits1 = 0;
     var course1 = 0;
   }
-  if (ccredits2 == '') {
+  if (ccredits2 == "") {
     var credits2 = 0;
     var course2 = 0;
   }
-  if (ccredits3 == '') {
+  if (ccredits3 == "") {
     var credits3 = 0;
     var course3 = 0;
   }
-  if (ccredits4 == '') {
+  if (ccredits4 == "") {
     var credits4 = 0;
     var course4 = 0;
   }
-  if (ccredits5 == '') {
+  if (ccredits5 == "") {
     var credits5 = 0;
     var course5 = 0;
   }
-  if (ccredits6 == '') {
+  if (ccredits6 == "") {
     var credits6 = 0;
     var course6 = 0;
   }
-  if (ccredits7 == '') {
+  if (ccredits7 == "") {
     var credits7 = 0;
     var course7 = 0;
   }
-  if (ccredits8 == '') {
+  if (ccredits8 == "") {
     var credits8 = 0;
     var course8 = 0;
   }
+  if (ccredits9 == "") {
+    var credits9 = 0;
+    var course9 = 0;
+  }
+  if (ccredits10 == "") {
+    var credits10 = 0;
+    var course10 = 0;
+  }
+  if (ccredits11 == "") {
+    var credits11 = 0;
+    var course11 = 0;
+  }
 
-  sumCourses = course1 + course2 + course3 + course4 + course5 + course6 + course7 + course8;
-  sumCredits = credits1 + credits2 + credits3 + credits4 + credits5 + credits6 + credits7 + credits8;
+  sumCourses =
+    course1 +
+    course2 +
+    course3 +
+    course4 +
+    course5 +
+    course6 +
+    course7 +
+    course8 +
+    course9 +
+    course10 +
+    course11;
+
+  sumCredits =
+    credits1 +
+    credits2 +
+    credits3 +
+    credits4 +
+    credits5 +
+    credits6 +
+    credits7 +
+    credits8 +
+    credits9 +
+    credits10 +
+    credits11;
   if (sumCourses == 0) {
     Swal.fire({
-      icon: 'warning',
-      title: 'Insufficient Data provided !!',
-      text: 'Please re-enter the data..'
+      icon: "warning",
+      title: "Insufficient Data provided !!",
+      text: "Please re-enter the data..",
     });
   } else {
-
     /* alert("Credit 1 : " + credits1 + "\nGrade 1 : " + grade1 + "\nCourse 1 : " + course1);
     alert("Credit 2 : " + credits2 + "\nGrade 2 : " + grade2 + "\nCourse 2 : " + course2);
     alert("Credit 3 : " + credits3 + "\nGrade 3 : " + grade3 + "\nCourse 3 : " + course3);
@@ -95,11 +145,13 @@ function func_gpa() {
     alert("Credit 7 : " + credits7 + "\nGrade 7 : " + grade7 + "\nCourse 7 : " + course7);
     alert("Credit 8 : " + credits8 + "\nGrade 8 : " + grade8 + "\nCourse 8 : " + course8); */
 
-    var mygpa = (sumCourses) / (sumCredits);
+    var mygpa = sumCourses / sumCredits;
     var gpa = parseFloat(mygpa).toFixed(2);
     Swal.fire("Your GPA is : ", gpa);
   }
 }
+
+// --------------------------------------------------------------------------------------
 
 function func_cgpa() {
   //Swal.fire("Test!");
@@ -162,50 +214,49 @@ function func_cgpa() {
   var sscredits8 = document.getElementById("sc8").value;
   var ssgpa8 = document.getElementById("sg8").value;
 
-
-  if (sscredits1 == '' || ssgpa1 == '') {
+  if (sscredits1 == "" || ssgpa1 == "") {
     var scredits1 = 0;
     var sem1 = 0;
     var sgpa1 = 0;
     count = count - 1;
   }
-  if (sscredits2 == '' || ssgpa2 == '') {
+  if (sscredits2 == "" || ssgpa2 == "") {
     var scredits2 = 0;
     var sem2 = 0;
     var sgpa2 = 0;
     count = count - 1;
   }
-  if (sscredits3 == '' || ssgpa3 == '') {
+  if (sscredits3 == "" || ssgpa3 == "") {
     var scredits3 = 0;
     var sem3 = 0;
     var sgpa3 = 0;
     count = count - 1;
   }
-  if (sscredits4 == '' || ssgpa4 == '') {
+  if (sscredits4 == "" || ssgpa4 == "") {
     var scredits4 = 0;
     var sem4 = 0;
     var sgpa4 = 0;
     count = count - 1;
   }
-  if (sscredits5 == '' || ssgpa5 == '') {
+  if (sscredits5 == "" || ssgpa5 == "") {
     var scredits5 = 0;
     var sem5 = 0;
     var sgpa5 = 0;
     count = count - 1;
   }
-  if (sscredits6 == '' || ssgpa6 == '') {
+  if (sscredits6 == "" || ssgpa6 == "") {
     var scredits6 = 0;
     var sem6 = 0;
     var sgpa6 = 0;
     count = count - 1;
   }
-  if (sscredits7 == '' || ssgpa7 == '') {
+  if (sscredits7 == "" || ssgpa7 == "") {
     var scredits7 = 0;
     var sem7 = 0;
     var sgpa7 = 0;
     count = count - 1;
   }
-  if (sscredits8 == '' || ssgpa8 == '') {
+  if (sscredits8 == "" || ssgpa8 == "") {
     var scredits8 = 0;
     var sem8 = 0;
     var sgpa8 = 0;
@@ -219,9 +270,9 @@ function func_cgpa() {
 
   if (sumSem == 0) {
     Swal.fire({
-      icon: 'warning',
-      title: 'Insufficient Data provided !!',
-      text: 'Please re-enter the data..'
+      icon: "warning",
+      title: "Insufficient Data provided !!",
+      text: "Please re-enter the data..",
     });
   } else {
     /* alert("count variable is - " + count);
@@ -234,7 +285,7 @@ function func_cgpa() {
     alert("Semester 7 : " + scredits7 + "\nSemester gpa 7 : " + sgpa7);
     alert("Semester 8 : " + scredits8 + "\nSemester gpa 8 : " + sgpa8); */
 
-    var mycgpa = (sumGPA) / (count);
+    var mycgpa = sumGPA / count;
     var cgpa = parseFloat(mycgpa).toFixed(2);
     Swal.fire("Your CGPA is : ", cgpa);
   }
